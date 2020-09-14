@@ -1,0 +1,34 @@
+#PYTHON ONE LINERS
+#INTEGER ADDITION
+#print("Addition =",int(input())+int(input()))
+
+#STRING CONCATENATION
+#print("Concatenated String is ",input()+" "+input())
+
+#List Comprehension
+#print([i for i in range(0,11) if i%2==0])
+
+#SUM function
+#print(sum([i for i in range(0,11)]))
+
+#Lambda Function
+#(lambda x,y: print(x+y)) (int(input()),int(input()))
+
+#String reverse
+#print(input()[::-1])
+
+#String reverse another method
+#print(input()[-1::-1])
+
+#List reverse
+#print([i for i in range(0,11)][::-1])
+
+#List indexing in even position
+#print([i for i in range(0,11)][::2])
+
+#List indexing in odd position
+#print([i for i in range(0,11)][1::2])
+
+
+
+
