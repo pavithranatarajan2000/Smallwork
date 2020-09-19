@@ -1,0 +1,21 @@
+'''
+Write a program to find the four digit numbers, which are perfect squares, and all the digits in that number are even.
+'''
+
+u=99
+l=32
+flag=0
+for i in range(l,u+1):
+  b=i*i
+  a=str(b)
+  for j in a:
+    v=[]
+    if (ord(j))%2==0:
+      flag=1
+    else:
+      flag=0
+      break
+  if flag==1:
+    print(i)
+  else:
+    continue
