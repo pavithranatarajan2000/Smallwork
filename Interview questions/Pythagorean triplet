@@ -1,0 +1,14 @@
+#A Pythagorean triplet is a set of three integers a, b and c such that a2 + b2 = c2. Given a limit, generate all Pythagorean Triples with values smaller than given limit.
+
+limit = 20 
+val_list = [] 
+for a in range(limit+1):
+  for b in range(a+1,limit+1):
+    for c in range(b+1,limit+1): 
+      if a**2 + b**2 == c**2:
+        val_list.append([a,b,c]) 
+for i in val_list:
+  for j in i:
+    print(j,end=" ")
+  print()
+  
