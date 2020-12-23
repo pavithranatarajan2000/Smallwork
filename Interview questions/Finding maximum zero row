@@ -1,0 +1,16 @@
+#Given an n-by-n matrix of 0’s and 1’s where all 1’s in each row come before all 0’s, find the most efficient way to return the row with the maximum number of 0’s.
+rows=int(input())
+cols=int(input())
+arr = [[0 for i in range(cols)] for j in range(rows)] 
+for i in range(rows):
+  for j in range(cols):
+    print("enter 0 or 1 in {0}th row and {1}th col".format(i,j))
+    arr[i][j]=int(input())
+    
+print(arr)
+#arr= [[1,1,1,1], [1,1,0,0], [1,0,0,0], [1,1,0,0]]
+x,y = 0,0
+for i in range(len(arr)):
+  x = arr[i].count(0)
+  y = max(y,x)
+print("Row with maximum zeros is",y)
