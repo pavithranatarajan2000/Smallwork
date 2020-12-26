@@ -1,0 +1,15 @@
+'''
+Eg 1: Input: one two three
+      Output: three two one
+Eg 2: Input: I love india
+      Output: india love I 
+      
+      '''
+
+
+
+s=input()
+print(" ".join(s.split(" ")[::-1]), end="")
+
+  
+  
