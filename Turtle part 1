@@ -1,0 +1,26 @@
+import turtle
+t=turtle.Turtle()
+count=0
+t.color("blue","red")
+#t.begin_fill()
+
+while(1):
+  while(1):
+    t.begin_fill()
+    t.forward(100)
+    t.left(130) 
+    t.forward(100) 
+    count+=1
+    if count==35:
+      t.end_fill()
+      break
+    t.end_fill()
+  #t.end_fill()
+  t.penup()
+  t.forward(200)
+  t.pendown()
+  
+
+
+
+  
