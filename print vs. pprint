@@ -38,3 +38,7 @@ b={'results': [{'address_components': [{'long_name': 'Rajpath',
  'status': 'OK'}
 pprint(b)
 print(b)
+a=[1,2,3]
+b=dir(a)
+print(b)
+pprint('hii')
