@@ -1,0 +1,11 @@
+# Online Python compiler (interpreter) to run Python online.
+# Write Python 3 code in this online editor and run it.
+import time
+a=time.time()
+print("Hello world")
+for i in range(5):
+    print(i)
+for j in range(8):
+    print(j)
+#a=10*20
+print((time.time()-a)*1000000000)
