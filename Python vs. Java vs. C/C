@@ -1,0 +1,27 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+#include<time.h>
+
+int main() {
+     
+     
+     clock_t start, end;
+     double cpu_time_used;
+     start = clock();
+    
+    // Write C code here
+    printf("Hello world\n");
+     for(int i=0;i<5;i++){
+            printf("\n%d",i);
+        }
+        for(int j=0;j<8;j++){
+            printf("\n%d",j);
+        }
+        //int a=10*20
+     
+     end = clock();
+     cpu_time_used = ((double) (end - start)) / CLOCKS_PER_SEC;
+     printf("\n%f",cpu_time_used*1000000000);
+    
+    return 0;
+}
