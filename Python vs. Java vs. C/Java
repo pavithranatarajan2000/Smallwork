@@ -1,0 +1,25 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class HelloWorld {
+    public static void main(String[] args) {
+         long startTime = System.nanoTime();
+        System.out.println("Hello, World!\n"); 
+        for(int i=0;i<5;i++){
+            System.out.println(i);
+        }
+        for(int j=0;j<8;j++){
+            System.out.println(j);
+        }
+        //int a=10*20;
+       
+// some time passes
+
+
+long endTime   = System.nanoTime();
+long totalTime = endTime - startTime;
+System.out.println(totalTime);
+
+    }
+    
+}
