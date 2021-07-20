@@ -1,0 +1,24 @@
+#HACKWITHINFY TECHNICAL INTERVIEW QUESTION
+#print n prime numbers starts from N Number.->question
+#here n is entryNumber, N is startNumber->parameter
+#Number of prime numbers->entryNumber
+entryNumber=int(input("How many prime numbers you want to print: "))
+startNumber = int(input("Where the prime number should start: "))
+
+count=0 #count for number of entries 
+
+while True: #loop until n prime numbers obtain
+    for i in range(2,startNumber):
+        if (startNumber % i) == 0: #condition for not a prime
+            break
+    else:
+        count+=1
+        print(startNumber)
+    if (count == entryNumber):#count reach is checking
+        break
+    else:
+        startNumber = startNumber + 1
+        continue
+
+
+
